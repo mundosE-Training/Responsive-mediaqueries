@@ -1,0 +1,68 @@
+// *{
+//     margin: 0rem;
+//     padding: 0rem;
+// }    
+body{
+    background-color: oldlace;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    #container{
+        header{
+            background-image: linear-gradient(to right, red, orangered, orange);
+            background-size: 200% 100%;
+            border: thick solid orangered;
+            height: 9.375rem;
+            line-height: 9.375rem;
+            text-align: center;
+            transition: background-position 2s ease-in, border 2s ease-in;
+            cursor: pointer;
+            &:hover{
+                background-position: 100% 0;
+                border: thick solid orange;
+            }
+        }
+        aside{
+            float: left;
+            width: 25%;
+            min-height: 45rem;
+            line-height: 9.375rem;
+            text-align: center;
+            background-color: aliceblue;
+        }
+        
+        }
+    }
+    #articles{
+        float: left;
+        width: 75%;
+        min-height: 45rem;
+            article{
+                background-color: transparent;
+                width: 25%;
+                height: 9.375rem;
+                margin: 1rem;
+                float: left;
+                line-height: 9.375rem;
+                border: .3rem outset whitesmoke;
+                text-align: center;
+                margin: .5rem;
+                cursor: pointer;
+                &:hover{
+                    background-color: black;
+                    width: 26%;
+                    box-shadow: .2rem .2rem .8rem .1rem black;
+                }
+            }
+        }
+@media (max-width: 55.5rem){
+    #articles article{
+        background-color: red;
+        width: 40%;
+    }
+}
+article > img{
+    object-fit: contain;
+    width: 100%;
+}
