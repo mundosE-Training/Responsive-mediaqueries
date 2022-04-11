@@ -10,17 +10,18 @@ body{
     margin-bottom: 2.5rem;
     #container{
         header{
-            background-image: linear-gradient(to right, red, orangered, orange);
+            color: whitesmoke;
+            background-image: linear-gradient(to right, rgb(17, 17, 96), rgba(135, 207, 235, 0.867), whitesmoke);
             background-size: 200% 100%;
-            border: thick solid orangered;
+            border: thick solid whitesmoke;
             height: 9.375rem;
             line-height: 9.375rem;
             text-align: center;
-            transition: background-position 2s ease-in, border 2s ease-in;
+            transition: background-position 2s ease-in, color 2s ease-in;
             cursor: pointer;
             &:hover{
-                background-position: 100% 0;
-                border: thick solid orange;
+                background-position: 90% 0;
+                color: black;
             }
         }
         aside{
@@ -30,6 +31,13 @@ body{
             line-height: 9.375rem;
             text-align: center;
             background-color: aliceblue;
+        }
+        footer{
+            float: left;
+            background-color: rgb(212, 220, 238);
+            height: 1rem;
+            width: 100%;
+            margin-bottom: 1rem;
         }
         
         }
@@ -65,4 +73,12 @@ body{
 article > img{
     object-fit: contain;
     width: 100%;
+}
+.texto-central{
+    font-size: 1.2vw;
+    float: left;
+    margin-right: 3rem;
+    padding-right: 4rem;
+    text-align: center;
+    line-height: 2em;
 }
