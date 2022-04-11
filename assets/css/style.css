@@ -13,6 +13,7 @@ body #container header {
   background-size: 200% 100%;
   border: thick solid whitesmoke;
   height: 9.375rem;
+  font-size: 1.5vw;
   line-height: 9.375rem;
   text-align: center;
   -webkit-transition: background-position 2s ease-in, color 2s ease-in;
@@ -29,6 +30,7 @@ body #container aside {
   float: left;
   width: 25%;
   min-height: 45rem;
+  font-size: 1.5vw;
   line-height: 9.375rem;
   text-align: center;
   background-color: aliceblue;
@@ -82,7 +84,7 @@ article > img {
 }
 
 .texto-central {
-  font-size: 1.2vw;
+  font-size: 1.25vw;
   float: left;
   margin-right: 3rem;
   padding-right: 4rem;
