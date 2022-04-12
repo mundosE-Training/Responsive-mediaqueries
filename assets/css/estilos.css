@@ -112,25 +112,13 @@ footer{
         align-items: center; 
         width: auto;
     }
-    content{
-        width: 100%;
-        display: flex;
-    }
     aside{
-        height: 70vh;
         float: left;
+        height: 72vh;
         width: 30%;
         padding-top: 1rem;
-        font-size: 1.8rem;
-        background-color: #304182;
-        font-size: small;
-        color: aliceblue;
-        margin: 0px;
         padding: 0px;
-        align-items: center;
-        justify-content: center;
-        align-items: center;
-        display: flex;
+        font-size:small;
     }
     #articulos{
         float: right;
@@ -139,6 +127,7 @@ footer{
         padding: 0px;
         justify-content: center;
         align-items: center;
+        margin: 0px;
     }
    
     #articulos article{
@@ -168,7 +157,7 @@ footer{
     }
 
     header h1{
-        font-size: 4.5em;
+        font-size: 3em; /* tamaño de letra, muy grande era 4,5 */
     }
 
     aside{
