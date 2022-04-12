@@ -104,17 +104,43 @@ footer{
 
 /*------------------media queries 768px -----------------------*/
  
-@media (min-width: 768px) {
+
+/*------------------media queries 1200px -----------------------*/
+ 
+@media (min-width: 1200px) {
     header{
-        padding-top: 1rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
         display:flex;
         justify-content: center;
         align-items: center; 
     }
+
+    header h1{
+        font-size: 4.5em;
+    }
+
+    aside{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+  
+    #articulos{
+        float: center;
+    }
+   
+    #articulos article{
+        width: 15%;
+        float: center;
+        margin-left: 10%;
+  }
+
     aside{
         padding-top: 1rem;
         font-size: 1.8rem;
     }
+  
     #articulos{
         float: left;
     }
@@ -123,19 +149,19 @@ footer{
         width: 40%;
         float: left;
         margin-left: 3%;
-        
-
     }
+  
     .cortar_float{
         display: block;
         content: "";
         clear: both;
-
     } 
+
     footer{
-        padding-top: 1rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
         display:flex;
         justify-content: center;
         align-items: center; 
+        color:white; } 
     }
-}
