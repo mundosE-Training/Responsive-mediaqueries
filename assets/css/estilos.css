@@ -76,11 +76,12 @@ footer{
 
 @media (min-width: 480px) {
     header{
-        padding-top: 2rem; 
+        padding-top: 1rem; 
+        font-size: 1.5rem;
     }
     aside{
         padding-top: 1rem;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
     #articulos{
         float: left;
@@ -154,3 +155,64 @@ footer{
         align-items: center; 
     }
 }
+
+/*------------------media queries 1200px -----------------------*/
+ 
+@media (min-width: 1200px) {
+    header{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        display:flex;
+        justify-content: center;
+        align-items: center; 
+    }
+
+    header h1{
+        font-size: 4.5em;
+    }
+
+    aside{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+  
+    #articulos{
+        float: center;
+    }
+   
+    #articulos article{
+        width: 15%;
+        float: center;
+        margin-left: 10%;
+  }
+
+    aside{
+        padding-top: 1rem;
+        font-size: 1.8rem;
+    }
+  
+    #articulos{
+        float: left;
+    }
+   
+    #articulos article{
+        width: 40%;
+        float: left;
+        margin-left: 3%;
+    }
+  
+    .cortar_float{
+        display: block;
+        content: "";
+        clear: both;
+    } 
+
+    footer{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        display:flex;
+        justify-content: center;
+        align-items: center; 
+        color:white; } 
+    }
