@@ -104,6 +104,57 @@ footer{
 
 /*------------------media queries 768px -----------------------*/
  
+@media (min-width: 768px) {
+    header{
+        padding-top: 1rem;
+        display:flex;
+        justify-content: center;
+        align-items: center; 
+        width: auto;
+    }
+    content{
+        width: 100%;
+        display: flex;
+    }
+    aside{
+        height: 70vh;
+        float: left;
+        width: 30%;
+        padding-top: 1rem;
+        font-size: 1.8rem;
+        background-color: #304182;
+        font-size: small;
+        color: aliceblue;
+        margin: 0px;
+        padding: 0px;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    #articulos{
+        float: right;
+        width: 70%;
+        margin: 0px;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    #articulos article{
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    footer{
+        width: auto;
+        padding-top: 1rem;
+        display:flex;
+        justify-content: center;
+        align-items: center; 
+    }
+}
 
 /*------------------media queries 1200px -----------------------*/
  
