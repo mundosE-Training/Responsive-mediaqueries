@@ -103,3 +103,38 @@ footer{
 
 /*------------------media queries 768px -----------------------*/
  
+@media (min-width: 768px) {
+    header{
+        padding-top: 1rem;
+        display:flex;
+        justify-content: center;
+        align-items: center; 
+    }
+    aside{
+        padding-top: 1rem;
+        font-size: 1.8rem;
+    }
+    #articulos{
+        float: left;
+    }
+   
+    #articulos article{
+        width: 40%;
+        float: left;
+        margin-left: 3%;
+        
+
+    }
+    .cortar_float{
+        display: block;
+        content: "";
+        clear: both;
+
+    } 
+    footer{
+        padding-top: 1rem;
+        display:flex;
+        justify-content: center;
+        align-items: center; 
+    }
+}
